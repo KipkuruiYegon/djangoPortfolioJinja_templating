@@ -1,0 +1,83 @@
+{% extends 'navigation.html' %}
+{% load static %}
+
+{% block body %}
+
+<!-- Services Section -->
+<div class="service-container container bg-info rounded-4">
+  <section id="services">
+    <div class="row mt-5">
+      <h1 class="text-white mb-3 p-5">Services</h1>
+      <div class="col-md-4 mb-4">
+        <div class="card img-fluid" style="width: 100%">
+          <img
+            src="{% static 'images/img5.jpg' %}"
+            class="card-img-top img-fluid"
+            alt="Web Development Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">
+              We specialize in creating stunning and user-friendly websites and web applications. Our web development services cover everything from front-end design to back-end functionality, ensuring a seamless online experience for your users.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card img-fluid" style="width: 100%">
+          <img
+            src="{% static 'images/img2.jpg' %}"
+            class="card-img-top img-fluid"
+            alt="Data Analysis Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Data Analysis</h5>
+            <p class="card-text">
+              Unlock the power of your data with our data analysis services. We provide in-depth insights and data-driven solutions to help you make informed business decisions. From data collection to visualization, we've got you covered.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card img-fluid" style="width: 100%">
+          <img
+            src="{% static 'images/img7.jpg' %}"
+            class="card-img-top img-fluid"
+            alt="Consultancy Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Consultancy</h5>
+            <p class="card-text">
+              Our consultancy services are designed to guide your business towards success. We offer expert advice and strategic planning to help you overcome challenges and achieve your goals. Partner with us for personalized solutions.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card" style="width: 100%">
+          <img
+            src="{% static 'images/img3.jpg' %}"
+            class="card-img-top"
+            alt="Project Management Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Project Management</h5>
+            <p class="card-text">
+              Let us handle the complexities of project management. Our services encompass project planning, execution, and monitoring, ensuring timely and cost-effective project delivery. Focus on your goals while we manage your projects.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+{% endblock %}

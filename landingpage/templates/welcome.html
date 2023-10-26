@@ -1,0 +1,35 @@
+{% extends 'navigation.html' %}
+{% load static %}
+
+{% block body %}
+
+    <div class="opening row col-m-12 p-5 text-white">
+      <div class="col-6 align-content-center mt-4 p-4">
+        <h2 class="">Hi there ! I'm,</h2>
+        <h1 class="prof-desc">Kipkurui Kevin</h1>
+        <h2 class="">Web Developer💻,</h2>
+
+        <a
+          class="lets-work btn btn btn-info rounded-pill mt-3 text-white p-2 lets-work text-center"
+          href="#services"
+        >
+          Lets work together!
+        </a>
+      </div>
+      <div class="col-6 mt-2 p-3 img-fluid d-flex justify-content-center">
+        <img class="profile circle img-fluid" src="{% static 'images/img4.avif' %}" />
+      </div>
+      <div class="text-center">
+        <div class="social-icons text-white">
+          <i class="fa fa-facebook social-icon"></i>
+          <i class="fa fa-twitter social-icon"></i>
+          <i class="fa fa-instagram social-icon"></i>
+          <i class="fa fa-linkedin social-icon"></i>
+          <i class="fa fa-github social-icon"></i>
+          <!-- Add more social icons as needed -->
+        </div>
+      </div>
+    </div>
+
+
+{% endblock %}

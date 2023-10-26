@@ -1,0 +1,39 @@
+{% extends 'navigation.html' %}
+{% load static %}
+
+{% block body %}
+
+
+    <!-- About Yourself Section -->
+    <div class="about-container container rounded-4">
+      <section id="about">
+        <div class="row col-m-12">
+          <div class="col-5 img-fluid p-5 mt-5 d-flex justify-content-center">
+            <img
+              class="about-img img-fluid rounded-5"
+               src="{% static 'images/img6.jpg' %}"
+              alt=""
+            />
+          </div>
+          <div class="col-7 p-5 mt-5 justify-content">
+            <h1>About me</h1>
+            <p class="descrip-about">
+              I am a versatile Web Developer with a nitche in driving
+              technological advancement. I'm ready to work with in projects in
+              web content management, web development ,E-Learning support, and
+              data analysis
+            </p>
+
+            <p class="descrip-about">
+              I am dedicated to fostering collaborative relationships,
+              delivering effective communication, and staying at the forefront
+              of technological advancements and prepared to excel in new
+              opportunities and make a meaningful impact in the dynamic field of
+              information technology
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+{% endblock %}
